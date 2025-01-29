@@ -1,3 +1,4 @@
+clear
 $chrome = "chrome"
 $runningChrome = Get-Process -Name $chrome
 if ($runningChrome) {
